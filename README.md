@@ -65,7 +65,7 @@ on the host machine are **NVIDIA drivers, Docker and Python**.
 
 5. Prepare a JSON file structured like the provided metadata.json for the metadata.
 
-6. Run the following command to start. Your images need to be placed in a folder and this folder should be place in another. Its structure should be like in the folder images under the files directory.
+6. Run the following command to start. Your images need to be placed in a folder and this folder should be placed in another. The folder structure should be like in the folder images under the files directory.
     ```
     sudo python3 training_starter.py 
     ```
@@ -80,8 +80,6 @@ on the host machine are **NVIDIA drivers, Docker and Python**.
     [--batch_size BATCH_SIZE] Allows user set the batch size that will be used for retraining. default=4 <br>
     [--number_of_steps NUMBER_OF_STEPS] Allows usere set the number of steps while retraining. default=200000 <br>
     ```
-    Once Drip is done it will save the results for each folder under a folder called results in the files directory.
-    
     Drip will keep you informed about the operations it does. It will also mount a folder called pipeline. In this folder you may find the following folders.
       - dl - Includes all files specific to that retraining session.
       - trash - Includes old session files. Drip will automatically move existing old session folders to this folder if the user tries to start a new session to prevent overwrites.
@@ -98,7 +96,7 @@ on the host machine are **NVIDIA drivers, Docker and Python**.
 
 4. Edit the class_map.pbtxt so that it has your categories.
 
-5. Run the following command to start. Your images need to be placed in a folder and this folder should be placed in another. Its structure should be like in the folder images under the files directory.
+5. Run the following command to start. Your images need to be placed in a folder and this folder should be placed in another. The folder structure should be like in the folder images under the files directory.
     ```
     sudo python3 training_starter.py 
     ```
@@ -107,6 +105,7 @@ on the host machine are **NVIDIA drivers, Docker and Python**.
     [--images_path IMAGES_PATH] Allows user specify the path of the images. default='./files/images' <br>
     [--threshold THRESHOLD] Allows user to set a threshold percentage for inference. default=60
     ```
+    Once Drip is done it will save the results for each folder under a folder called results in the files directory.
     
     Drip will keep you informed about the operations it does. It will also mount a folder called pipeline. In this folder you may find the following folders.
       - dl - Includes all files specific to that retraining session.
