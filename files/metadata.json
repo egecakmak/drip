@@ -1,0 +1,18 @@
+{
+  "frames": [
+    {
+      "path": "example/1.jpg",
+      "width": 1920,
+      "height": 1080,
+      "boxes": [
+        {
+          "class": "dog",
+          "x0": 1000,
+          "y0": 2,
+          "x1": 1032,
+          "y1": 58
+        }
+      ]
+    }
+  ]
+}
