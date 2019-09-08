@@ -42,6 +42,10 @@ on the host machine are NVIDIA drivers, Docker and Python.
 1. Drip works as a pipeline of 8 modular Python files and couple other bash files.
 2. 2 of these Python files are like a wrapper and it starts the container. The remaining files run inside the container.
 
+## Requirements
+- Docker
+- Python 3
+- NVIDIA Drivers
 
 ## Usage
 
@@ -125,4 +129,4 @@ on the host machine are NVIDIA drivers, Docker and Python.
 
 ## Some more stuff.
   This project took me a good amount of time but I learned a lot while working on it. If it helps you in any way and just a thank you is enough. Donations are not accepted. Thank you. <br>
-  This project has no license or whatsoever, so users can use it however they like.
+  This project is licensed under the Apache license.
