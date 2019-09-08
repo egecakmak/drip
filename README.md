@@ -3,8 +3,11 @@
 <p align="center">
 <img src="https://img.shields.io/badge/python-v3.5+-blue">
 <img src="https://img.shields.io/badge/version-1.0-green">
+<img src="https://img.shields.io/badge/platform-UNIX-blue">
+<img src="https://img.shields.io/badge/license-Apache%202.0-orange">
 <img src="https://img.shields.io/badge/build-passing-green">
-<img src="https://img.shields.io/badge/license-Apache-2.0-orange">
+
+     
 <p>
 
 <img src="https://user-images.githubusercontent.com/22041191/64481531-b39f9d00-d1a2-11e9-979b-f9528ba026f0.png" align="right"
