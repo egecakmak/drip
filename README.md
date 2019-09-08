@@ -128,5 +128,5 @@ on the host machine are NVIDIA drivers, Docker and Python.
   Ege Cakmak - cakmake@my.yorku.ca
 
 ## Some more stuff.
-  This project took me a good amount of time but I learned a lot while working on it. If it helps you in any way and just a thank you is enough. Donations are not accepted. Thank you. <br>
+  This project took me a good amount of time but I learned a lot while working on it. If it helps you in any way just a thank you is enough. Donations are not accepted. Thank you. <br>
   This project is licensed under the Apache license.
