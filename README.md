@@ -12,21 +12,21 @@
 
 <img src="https://user-images.githubusercontent.com/22041191/64481531-b39f9d00-d1a2-11e9-979b-f9528ba026f0.png" align="right"
      title="Size Limit logo by Ege Cakmak" width="240" height="280">
-Drip is a dockerized (as implied by the name) and automatic deep learning environment saving the user from the 
+Drip is a **dockerized** (as implied by the name) and **automatic deep learning environment** saving the user from the 
 hassle of having to setup the environment. It is for retraining models from the model zoo for retraining an object recognition network.
 
-* Drip is designed to run on NVIDIA GPUs and thereby uses tensorflow-gpu. As a result it includes CUDA 9 and cudNN 9.0 .
+* Drip is designed to run on **NVIDIA** GPUs and thereby uses **tensorflow-gpu**. As a result it includes **CUDA 9** and **cudNN 9.0** .
 * Drip runs all application dependent operations in a docker container it builds automatically. Therefore all you need to install
-on the host machine are NVIDIA drivers, Docker and Python.
-* Drip aims to be simple to use and time saving.
+on the host machine are **NVIDIA drivers, Docker and Python**.
+* Drip aims to be **simple** to use and time saving.
 * Drip also allows users to use the container for operations other than retraining and inference.
-* Drip can augment the image dataset to improve its quality.
+* Drip can **augment the image dataset to improve its quality**.
 
 ## Features
 
 * Fully dockerized.
-* Written fully on Python 3 and bash.
-* Runs only on UNIX for now however the docker container could be deployed on Windows as well.
+* Written fully on **Python 3 and bash**.
+* Runs only on **UNIX** for now however the docker container could be deployed on Windows as well.
 * Drip does the following automatically during retraining.
   - Sets the environment required.
   - Picks images randomly for evaluation and training.
@@ -36,7 +36,7 @@ on the host machine are NVIDIA drivers, Docker and Python.
   - Starts training.
 * Provides a folder with a systematic structure allowing user to access the results easily.
 * Allows users to bring their own model and retrain them.
-* Comes with TensorBoard to allow users monitor the retraining.
+* Comes with **TensorBoard** to allow users monitor the retraining.
 * It can also do inference and save the results.
 * All input and output of metadata are completely in JSON.
 * Provides the coordinates of detection boxes on the augmented images.
@@ -123,10 +123,10 @@ on the host machine are NVIDIA drivers, Docker and Python.
 
 
 ## Contributions
-  Baris Bagcilar
+  **Baris Bagcilar**
 
 ## Thanks 
-  Huge thanks to Mr. Dogukan Altay of Selvi Technology for their guidance and help.
+  Huge thanks to **Mr. Dogukan Altay** of Selvi Technology for their guidance and help.
   
 ## Contact
   Ege Cakmak - cakmake@my.yorku.ca
