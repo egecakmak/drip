@@ -1,7 +1,7 @@
 # <p align="center"> Drip - Dockerized Retraining & Inference Pipeline <p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/python-v3.6+-blue">
+<img src="https://img.shields.io/badge/python-v3.5+-blue">
 <img src="https://img.shields.io/badge/version-1.0-green">
 <img src="https://img.shields.io/badge/build-passing-green">
 <p>
