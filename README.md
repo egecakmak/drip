@@ -129,7 +129,7 @@ on the host machine are **NVIDIA drivers, Docker and Python**.
   Huge thanks to **Mr. Dogukan Altay** of Selvi Technology for their guidance and help.
   
 ## Contact
-  Ege Cakmak - cakmake@my.yorku.ca
+  Ege Cakmak - cakmake@my.yorku.ca - https://www.linkedin.com/in/cakmakege/
 
 ## Some more stuff.
   This project took me a good amount of time but I learned a lot while working on it. If it helps you in any way just a thank you is enough. Donations are not accepted. Thank you. <br>
