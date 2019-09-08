@@ -13,7 +13,7 @@
 <img src="https://user-images.githubusercontent.com/22041191/64481531-b39f9d00-d1a2-11e9-979b-f9528ba026f0.png" align="right"
      title="Size Limit logo by Ege Cakmak" width="240" height="280">
 Drip is a **dockerized** (as implied by the name) and **automatic deep learning environment** saving the user from the 
-hassle of having to setup the environment. It is for retraining models from the model zoo for retraining an object recognition network.
+hassle of having to setup the environment. It utilizes models from the model zoo for retraining an object recognition network.
 
 * Drip is designed to run on **NVIDIA** GPUs and thereby uses **tensorflow-gpu**. As a result it includes **CUDA 9** and **cudNN 9.0** .
 * Drip runs all application dependent operations in a docker container it builds automatically. Therefore all you need to install
