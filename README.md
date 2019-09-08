@@ -16,6 +16,7 @@ hassle of having to setup the environment. It is for retraining models from the 
 on the host machine are NVIDIA drivers, Docker and Python.
 * Drip aims to be simple to use and time saving.
 * Drip also allows users to use the container for operations other than retraining and inference.
+* Drip can augment the picture dataset to improve its quality.
 
 ## Features
 
