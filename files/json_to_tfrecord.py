@@ -40,7 +40,6 @@ def start_conversion(file_path, images_path):
     with open(file_path) as json_file:
         data = json.load(json_file)
         for frame in data['frames']:
-            print(frame)
             image_path = './images_augmented/' if '_augmented' in basename(frame['path']) else images_path
             with tf.gfile.GFile(image_path + frame['path'], 'rb') as fid:
                 encoded_img = fid.read()
