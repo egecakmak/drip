@@ -98,7 +98,7 @@ on the host machine are **NVIDIA drivers, Docker and Python**.
 
 5. Run the following command to start. Your images need to be placed in a folder and this folder should be placed in another. The folder structure should be like in the folder images under the files directory.
     ```
-    sudo python3 training_starter.py 
+    sudo python3 inference_starter.py 
     ```
     ```
     Below are the arguments inference_starter.py takes. <br>
