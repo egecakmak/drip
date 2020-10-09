@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/badge/version-1.0-green">
 <img src="https://img.shields.io/badge/platform-UNIX-blue">
 <img src="https://img.shields.io/badge/license-Apache%202.0-orange">
-<img src="https://img.shields.io/badge/build-passing-green">
 
      
 <p>
